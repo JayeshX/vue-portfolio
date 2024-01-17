@@ -11,7 +11,7 @@ import Contact from '../components/Sections/ContactMeComponent.vue';
 </script>
 <template>
   <div>
-  <div class="bg-[url('./assets/img/lightback.jpg')] dark:bg-[url('./assets/img/banner.png')] min-h-screen bg-fixed bg-cover bg-right bg-no-repeat">
+  <div class="bg-[url('./assets/img/lightback.jpg')] dark:bg-[url('./assets/img/banner.png')]  bg-fixed bg-cover bg-right bg-no-repeat">
   <Landing class="mt-12 mb-12"/>
   </div>
   <Skills />
