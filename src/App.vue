@@ -10,13 +10,10 @@ import FootComponent from './components/Footer/FootComponent.vue';
 <template>
   <div>
     <NavbarComp/>
-    <RouterView/>
+    <RouterView class="m-0 overflow-hidden "/>
     <FootComponent/>
   </div>
   
-    <!-- <div class="bg-[url('./assets/img/banner.png')] min-h-screen bg-cover bg-top bg-no-repeat">
-    <Home />
-  </div> -->
 </template>
 
 <style scoped>
